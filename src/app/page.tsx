@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HeroSection: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const HeroSection: React.FC = () => {
       {/* Image Content */}
       <div className="flex justify-center mb-6">
         <div className="relative w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96">
-          <img
+          <Image
             src="/girl.png"
             alt="Umama"
             className="rounded-full object-cover w-full h-full border-4 sm:border-6 md:border-8 border-indigo-500 shadow-xl"
