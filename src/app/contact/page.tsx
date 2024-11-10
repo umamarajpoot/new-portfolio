@@ -7,7 +7,7 @@ const ContactForm: React.FC = () => {
         {/* Connect with Me Section */}
         <div className="md:w-1/2">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-indigo-300 mb-5">
-            Let&apo;s Connect
+            Let's Connect
           </h1>
           <h2 className="text-2xl sm:text-3xl font-bold text-indigo-400 mb-3">
             Connect with me:
